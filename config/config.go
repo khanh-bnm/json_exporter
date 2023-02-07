@@ -28,6 +28,7 @@ type Metric struct {
 	Type           ScrapeType
 	ValueType      ValueType
 	EpochTimestamp string
+	Parser         string
 	Help           string
 	Values         map[string]string
 }

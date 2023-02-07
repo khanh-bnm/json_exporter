@@ -45,3 +45,5 @@ require (
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
+
+replace github.com/prometheus-community/json_exporter v0.5.1-0.20230201063836-9230bf73c5cc => ./
